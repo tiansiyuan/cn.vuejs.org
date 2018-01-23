@@ -247,7 +247,11 @@ Vue 包含一组观察数组的变异方法，所以它们也将会触发视图�
 - `sort()`
 - `reverse()`
 
-你打开控制台，然后用前面例子的 `items` 数组调用变异方法：`example1.items.push({ message: 'Baz' })` 。
+你打开控制台，然后用前面例子的 `items` 数组调用变异方法：
+
+``` js
+example1.items.push({ message: 'Baz' })
+```
 
 ### 替换数组
 
